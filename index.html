@@ -1,1 +1,304 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Hack on navbar-top -->
+    <link rel="stylesheet" href="css/navbar-fixed-top.css">
+    <script>
+      window.addEventListener("hashchange", function() { scrollBy(0, -70) })
+    </script>
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <title>Hiroshi ABE - Home</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	</div>
+	<div id="navbar" class="collapse navbar-collapse">
+	  <ul class="nav navbar-nav">
+	    <li class="nav-item">
+	      <a class="nav-item" href="#">Top</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-item" href="#research_interest">
+		Research Interest
+	      </a>
+	    </li>
+	    <li class="dropdown">
+	      <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+		Publications<span class="caret"></span>
+	      </a>
+	      <ul class="dropdown-menu">
+		<li><a href="#papers">Papers</a></li>
+		<li><a href="#conferences">Conferences</a></li>
+    <li><a href="#workshops">Workshop/Symposium</a></li>
+		<li><a href="#technical_reports">Technical Reports</a></li>
+		<li><a href="#misc">Misc</a></li>
+	      </ul>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-item" href="#public_activity">
+		Public Activity
+	      </a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-item" href="#current_positions">
+		Current Positions
+	      </a>
+	    </li>
+	  </ul>
+	</div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+	<h2>Hiroshi ABE (Researcher/Engineer)</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-md-9" role="main">
+	  <div>
+	    <h1 id="research_interest" class="page-header">
+	      Research Interest
+	    </h1>
+
+      <li>Cloud Computing</li>
+      <li>Big data analysis platform</li>
+      <li>Internet architecture</li>
+      <li>Network/system monitoring</li>
+
+	  </div>
+
+	  <div>
+	    <h1 id="publications" class="page-header">
+	      Publications
+	    </h1>
+
+	    <h2 id="papers">Papers</h2>
+	    <ul>
+	      <li>
+          <u>阿部博</u>, 篠田陽一, 敷田幹文,
+          "イベントネットワークにおけるsyslogを用いた異常検知手法の提案と実データを用いた評価", 
+          情報処理学会論文誌, 59巻3号, pages 1006-1015, mar 2018.
+	      </li>
+	    </ul>
+
+
+      <h2 id="conferences">Conferences</h2>
+	    <ul>
+	      <li>Keiichi Shima, Daisuke Miyamoto, <u>Hiroshi Abe</u>,
+		Tomohiro Ishihara, Kazuya Okada, Yuji Sekiya,
+		Hirochika Asai, Yusuke Doi,
+		<a href="http://member.wide.ad.jp/~shima/publications/20180219-ni2018-url-clf.pdf">
+		  "Classification of URL bitstreams using Bag of Bytes"
+		</a>,
+		First International Workshop on Network Intelligence (NI2018),
+		February 20-22, 2018.
+	      </li>
+
+	      <li><u>Hiroshi Abe</u>, Keiichi Shima, Yuji Sekiya,
+		Daisuke Miyamoto, Tomohiro Ishihara, Kazuya Okada,
+		<a href="http://member.wide.ad.jp/~shima/publications/20170616-hayabusa.pdf">
+		  "Hayabusa: Simple and Fast Full-Text Search Engine
+		  for Massive System Log Data"</a>,
+		Conference on Future Internet
+		(CFI'17),
+		June 16, 2017.
+	      </li>
+
+        <li>
+        <u>Hiroshi Abe</u>, Shinobu Hasegawa, Koichiro Ochimizu,
+        "A Learning Management System with Navigation Supports",
+        The International Conference on Computers in Education 2003(ICCE 2003), 2003.12.
+	      </li>
+	    </ul>
+
+
+      <h2 id="workshops">Workshop/Symposium</h2>
+	    <ul>
+        <li>
+        <u>阿部博</u>, 篠田陽一, "スケールアウト可能なログ検索エンジンの実現と評価", インターネットと運用技術シンポジウム 2017 論文集, volume 2017, pages 73–80, nov 2017.
+        </li>
+
+        <li>
+        <u>阿部 博</u>, 敷田 幹文, "イベントネットワークにおけるsyslogを用いた異常検知手法の提案と実データを用いた評価". IOTS2016, 2016年12月.
+        </li>
+
+        <li>
+        <u>阿部博</u>, 井上朋哉, 篠田陽一, "隠蔽された分散処理環境を透過的に利用可能な基盤の提案",マルチメディア、分散、協調とモバイルシンポジウム(DICOMO2016), 三重県,Jul 6-8,2016
+        </li>
+	    </ul>
+
+
+<!--
+	    <h2 id="thesis">Thesis</h2>
+	    <ul>
+	      <li>
+	      </li>
+	    </ul>
+-->
+
+
+	    <h2 id="technical_reports">Technical Reports/Magazine Articles</h2>
+	    <ul>
+        <li>
+        <u>阿部博</u>, 島慶一,
+        <a ref="https://www.iij.ad.jp/dev/report/iir/pdf/iir_vol38_focus2.pdf">"Hayabusa：高速に全文検索可能なログ検索エンジン"</a>, Internet Infrastructure Review, vol.38, 2018年3月
+        </li>
+
+        <li>
+          <u>阿部博</u>, 神谷和憲,「OSSで実現するセキュリティログ管理システム」, Software Design, 技術評論社, 2015年10月.
+	      </li>
+
+	      <li>
+        阿部博, <a href="https://thinkit.co.jp/story/2010/06/10/1605">「クラウドサービスにおける自動制御基盤（HaaS API）」</a>, Think IT, 2010年06月.
+        </li>
+	    </ul>
+
+
+	    <h2 id="misc">Misc</h2>
+	    <ul>
+	      <li>
+          長谷川幹人, <u>阿部博</u> ,関谷勇司, "PTP(Precision Time Protocol)の相互接続実証実験の現状と方向性(Phase2) ～ Interop Tokyo 2016 ShowNetにおける結果からの考察 ～",電子情報通信学会 インターネットアーキテクチャ研究会, 信学技報,vol.116,no.203,IA2016-13,pp.1-6,2016年8月.
+	      </li>
+
+	      <li>
+          <u>阿部博</u>, 宇夫陽次朗, "データセンター内の情報収集のためのスケーラブルなアーキテクチャ", 電子情報通信学会, インターネットアーキテクチャ研究会,(Jan 2015)
+        </li>
+
+	      <li>
+          <u>阿部博</u>, 長谷川忍, 落水浩一郎, "ナビゲーション機能を有する学習管理システムに関する研究",電子情報通信学会 教育工学研究会, 信学技報 ET2002-85, pp.7-pp.12, 2003年(平成15年)1月.
+        </li>
+
+
+	      </li>
+	    </ul>
+	  </div>
+
+	  <div>
+    <h1 id="awards">Awards</h1>
+    <ul>
+      <li>
+      山下記念研究賞,
+      "イベントネットワークにおけるsyslogを用いた異常検知手法の提案と実データを用いた評価",
+      情報処理学会, 2017年度（平成29年度）
+      </li>
+
+      <li>
+      学生奨励賞,
+      "スケールアウト可能なログ検索エンジンの実現と評価"
+      第10回インターネットと運用技術シンポジウム（IOTS2017）
+      </li>
+
+      <li>
+      優秀論文賞/優秀学生賞,
+      "イベントネットワークにおけるsyslogを用いた異常検知手法の提案と実データを用いた評価",
+      第9回インターネットと運用技術シンポジウム（IOTS2016）
+      </li>
+    </ul>
+    </div>
+
+	  <div>
+	    <h1 id="public_activity" class="page-header">
+	      Public Activity
+	    </h1>
+
+	    <ul>
+        <li>2018-Present:
+          <a href="https://www.sindan-net.com/">SINDAN Project</a>
+          member
+        </li>
+
+        <li>2017-Present:
+          <a href="https://www.sekiya-lab.info/?page_id=416">NML (Network <s>Machine</s> Muscle Learning) Project</a>
+          member
+
+	      <li>2015-Present:
+		<a href="https://www.interop.jp/">Interop Tokyo</a>
+    ShowNet NOCチームメンバー
+	      </li>
+
+	      <li>2012-Present:
+		<a href="http://www.wide.ad.jp/index.html">WIDE project</a>
+		member
+	      </li>
+	    </ul>
+	  </div>
+
+	  <div>
+	    <h1 id="current_positions" class="page-header">
+	      Current Positions
+	    </h1>
+
+	    <ul>
+	      <li>2018.3.1-Present: Researcher,
+		<a href="https://lepidum.co.jp/">
+		  lepidum Co. Ltd.</a>
+	      </li>
+
+        <li>2016-Present: 協力研究員,
+    <a href="http://www.nict.go.jp/">
+      国立研究開発法人 情報通信研究機構</a>
+        </li>
+
+        <li>2015.4.1-Present: Ph.D Course student,
+          Graduate School of Information Science,
+    <a href="http://www.jaist.ac.jp/">
+      Japan Advanced Institute of Science and Technology</a>
+        </li>
+	    </ul>
+	  </div>
+
+
+	  <div>
+	    <h1 id="past_positions" class="page-header">
+	      Past Positions
+	    </h1>
+
+	    <ul>
+        <li>2014.4.1-2018.2.28: Researcher,
+		<a href="http://www.iij-ii.co.jp/en/lab/index.html">
+		  Research Laboratory</a>,
+		<a href="http://www.iij-ii.co.jp/en/index.html">
+		  IIJ Innovation Institute Inc.</a>
+	      </li>
+        <li>2003.4.1-2014.3.31: Engineer,
+		<a href="http://www.iij.ad.jp/en/">
+		  Internet Initiative Japan Inc.</a>
+	      </li>
+	      <li>2001.4.1-2003.3.31: Master Course student, Graduate School of Information Science,
+		<a href="http://www.jaist.ac.jp/">
+		  Japan Advanced Institute of Science and Technology</a>
+        </li>
+	    </ul>
+	  </div>
+
+
+	</div>
+    </div>
+
+    <div class="container">
+      <footer class="footer">
+	<p class="text-muted">Copyright Hiroshi ABE</p>
+      </footer>
+    </div>
+
+  </body>
+</html>
